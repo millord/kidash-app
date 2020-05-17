@@ -6,10 +6,7 @@ export const About = () => {
       <div className="container">
         <div className="row">
           <div className="col s12 m6">
-            <h3>
-              <span className="deep-blue-text text-darken-1">Acerca de</span>{" "}
-              Nosotros
-            </h3>
+            <h3>Acerca de Nosotros</h3>
             <p className="flow-text">
               Somos una compañía especializada en instalaciones de
               climatización, industrial, doméstica o comercial, ampliamente
