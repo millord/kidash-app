@@ -29,6 +29,7 @@ export const NavbarSlide = () => {
     >
       <NavItem href="">Inicio</NavItem>
       <NavItem href="">Servicios</NavItem>
+      <NavItem href="">Acerca</NavItem>
       <NavItem href="">Contacto</NavItem>
     </Navbar>
   );
