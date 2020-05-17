@@ -12,21 +12,24 @@ export const IconBoxes = () => {
             <Card>
               <i className="material-icons  large teal-text">ac_unit</i>
               <h4>Instalaciones</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>
+                Servicios de instalación de sistemas frigoríficos en áreas
+                controladas.
+              </p>
             </Card>
           </Col>
           <Col s={12} m={4}>
             <Card>
               <i className="material-icons  large teal-text">shopping_cart</i>
               <h4>Ventas</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Ventas de Piezas y Repuestos en General</p>
             </Card>
           </Col>
           <Col s={12} m={4}>
             <Card>
               <i className="material-icons  large teal-text">build</i>
               <h4>Reparación</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Reparación Equipos de Refrigeración y Calefacción.</p>
             </Card>
           </Col>
         </Row>

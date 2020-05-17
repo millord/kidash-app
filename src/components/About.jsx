@@ -11,9 +11,10 @@ export const About = () => {
               Nosotros
             </h3>
             <p className="flow-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              odio eum magnam aut at voluptates omnis sint reiciendis dolorem
-              recusandae.
+              Somos una compañía especializada en instalaciones de
+              climatización, industrial, doméstica o comercial, ampliamente
+              reconocida por los mayores fabricantes de equipos y componentes
+              para sistemas de Climatización y Ventilación.
             </p>
           </div>
           <div className="col s12 m6">

@@ -12,6 +12,7 @@ import { PortFooter } from "./components/Footer";
 import { Marcas } from "./components/Marcas-components";
 import { About } from "./components/About";
 import { ServicioTecnico } from "./components/ServicioTecnico";
+import { Podcast } from "./components/Podcast";
 
 export const App = () => {
   return (
@@ -22,7 +23,8 @@ export const App = () => {
       <About />
       <ServicioTecnico />
       <Marcas />
-
+      <Podcast />
+      <Testimonials />
       <SocialMedia />
       <Contacts />
       <PortFooter />

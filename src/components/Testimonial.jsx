@@ -1,68 +1,44 @@
 import React from "react";
 import "materialize-css";
+import { Carousel } from "react-materialize";
 
 export const Testimonials = () => {
   return (
-    <section classNames="section section-testimonial grey lighten-4">
-      <div className="container">
-        <div className="row">
-          <div className="col s12">
-            <div className="carousel carousel-slider center">
-              <div className="carousel-item" href="#one!">
-                <h2>Testimonial 1</h2>
-                <p className="flow-text">
-                  "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Fugiat assumenda ad minima reiciendis vitae fuga, dicta ipsa
-                  sit maxime aperiam quo animi expedita adipisci officia hic,
-                  odio omnis temporibus earum?"
-                  <p>
-                    <em>- John Doe From Microsystems</em>
-                  </p>
-                </p>
-                <div className="carousel-fixed-item center hide-on-small-and-down">
-                  <a href="#" className="btn grey">
-                    Read More
-                  </a>
-                </div>
-              </div>
-              <div className="carousel-item" href="#two!">
-                <h2>Testimonial 2</h2>
-                <p className="flow-text">
-                  "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Fugiat assumenda ad minima reiciendis vitae fuga, dicta ipsa
-                  sit maxime aperiam quo animi expedita adipisci officia hic,
-                  odio omnis temporibus earum?"
-                  <p>
-                    <em>- Mike SMith From Edge INC</em>
-                  </p>
-                </p>
-                <div className="carousel-fixed-item center hide-on-small-and-down">
-                  <a href="#" className="btn grey">
-                    Read More
-                  </a>
-                </div>
-              </div>
-              <div className="carousel-item" href="#three!">
-                <h2>Testimonial 3</h2>
-                <p className="flow-text">
-                  "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Fugiat assumenda ad minima reiciendis vitae fuga, dicta ipsa
-                  sit maxime aperiam quo animi expedita adipisci officia hic,
-                  odio omnis temporibus earum?"
-                  <p>
-                    <em>- Karen Williams from Techsoft</em>
-                  </p>
-                </p>
-                <div className="carousel-fixed-item center hide-on-small-and-down">
-                  <a href="#" className="btn grey">
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <Carousel
+      carouselId="Carousel-2"
+      className="black-text center"
+      options={{
+        fullWidth: true,
+      }}
+    >
+      <div className="grey lighten-4">
+        <h2>Testimonio 1</h2>
+        <p>Conocen el problema y lo resuelven</p>
+        <p>
+          <em>Ministerio de Turismo</em>
+        </p>
       </div>
-    </section>
+      <div className="grey lighten-4">
+        <h2>Testimonio 2</h2>
+        <p>Trabajan rapido y no te hacen esperar</p>
+        <p>
+          <em>Farmacia Carol</em>
+        </p>
+      </div>
+      <div className="grey lighten-4">
+        <h2>Testimonio 3</h2>
+        <p>Muy profesonal su trabajo y trato</p>
+        <p>
+          <em>Pastor Miguel Nunez</em>
+        </p>
+      </div>
+      <div className="grey lighten-4">
+        <h2>Testimonio 4</h2>
+        <p>El mejor servicio tecnico que se pueda dar</p>
+        <p>
+          <em>Pepin Corripio</em>
+        </p>
+      </div>
+    </Carousel>
   );
 };

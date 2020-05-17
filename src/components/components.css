@@ -1,5 +1,5 @@
 .primary-overlay {
-  background: #1565c0;
+  background: rgba(8, 79, 235, 0.877);
   position: absolute;
   top: 0;
   left: 0;
@@ -9,7 +9,7 @@
 }
 
 .main-header {
-  background: url(../components/img/background.jpeg);
+  background: url(./img/ba.jpeg);
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -21,7 +21,7 @@
 }
 
 .main-header-inner {
-  background: url(../components/img/background.jpeg);
+  background: url(./img/background.jpeg);
   background-size: cover;
   background-position: center;
   min-height: 350px;
@@ -39,12 +39,30 @@
 
 .section-developers {
   position: relative;
-  background: url(../components/img/background.jpeg);
+  background: url(./img/ba2.jpeg);
   background-size: cover;
   background-position: center;
   border-top: #333 solid 5px;
   border-bottom: #333 solid 5px;
   min-height: 160px;
+}
+
+.section-podcast {
+  position: relative;
+  background: url(./img/ba.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+.section-podcast a {
+  margin-top: 30px;
+}
+
+.section-podcast .primary-overlay {
+  background: rgba(8, 79, 235, 0.877);
 }
 
 .carousel-item p {
@@ -61,7 +79,8 @@
 }
 
 @media (max-width: 500px) {
-  .section-developers {
+  .section-developers,
+  .section-podcast {
     min-height: 240px;
   }
 }

@@ -11,7 +11,7 @@ export const Marcas = () => {
           <h4 className="center">
             <span className="blue-text text-darken-1">
               {" "}
-              Trabajamos con Cualquier Marca
+              Trabajamos con todas las marca
             </span>
           </h4>
           <br />
@@ -19,7 +19,7 @@ export const Marcas = () => {
           <div className="row">
             <div className="col s2">
               <img
-                src={require("../components/img/mabe1.jpg")}
+                src={require("../components/img/haier2019_logo.png")}
                 className="responsive-img"
               />
             </div>
@@ -37,7 +37,7 @@ export const Marcas = () => {
             </div>
             <div className="col s2">
               <img
-                src={require("../components/img/whirpool.png")}
+                src={require("../components/img/whirlpoolfinal.png")}
                 className="responsive-img"
               />
             </div>
@@ -49,7 +49,7 @@ export const Marcas = () => {
             </div>
             <div className="col s2">
               <img
-                src={require("../components/img/sansumg2.png")}
+                src={require("../components/img/Samsung-Logo.png")}
                 className="responsive-img"
               />
             </div>
