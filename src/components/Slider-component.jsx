@@ -4,7 +4,7 @@ import { Slider, Slide, Caption, Button } from "react-materialize";
 
 export const SliderComponent = () => {
   return (
-    <section>
+    <section id="inicio" className="scrollspy">
       <Slider
         fullscreen={false}
         options={{
@@ -14,12 +14,10 @@ export const SliderComponent = () => {
           interval: 2000,
         }}
       >
-        <Slide image={<img alt="" src={require("./img/freezer1.jpg")} />}>
+        <Slide image={<img alt="" src={require("./img/freezer1.jpeg")} />}>
           <Caption placement="left">
-            <h3 className="blue-text text-darken-3">Kidash S.R.L</h3>
-            <h5 className="blue-text text-darken-3">
-              Instalaciones de Climatización
-            </h5>
+            <h3 className="white-text ">Kidash S.R.L</h3>
+            <h5 className="white-text ">Instalaciones de Climatización</h5>
             <Button
               node="button"
               style={{
@@ -31,12 +29,10 @@ export const SliderComponent = () => {
             </Button>
           </Caption>
         </Slide>
-        <Slide image={<img alt="" src={require("./img/staff2.jpg")} />}>
+        <Slide image={<img alt="" src={require("./img/staff2.jpeg")} />}>
           <Caption placement="center">
-            <h3 className="blue-text text-darken-3">
-              Amplia Gama de Servicios!
-            </h3>
-            <h5 className="blue-text text-darken-3">
+            <h3 className="white-text ">Amplia Gama de Servicios!</h3>
+            <h5 className="white-text ">
               a nivel industrial, doméstico y comercial
             </h5>
             <Button
@@ -51,7 +47,7 @@ export const SliderComponent = () => {
           </Caption>
         </Slide>
 
-        <Slide image={<img alt="" src={require("./img/freezer3.jpg")} />}>
+        <Slide image={<img alt="" src={require("./img/freezer3.jpeg")} />}>
           <Caption placement="right">
             <h3 className="blue-text text-darken-3">
               {" "}

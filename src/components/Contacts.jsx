@@ -13,7 +13,7 @@ import {
 
 export const Contacts = () => {
   return (
-    <Section>
+    <Section id="contact" className="scrollspy">
       <Container>
         <Row>
           <Col m={6} s={12}>

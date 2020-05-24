@@ -27,10 +27,10 @@ export const NavbarSlide = () => {
         preventScrolling: true,
       }}
     >
-      <NavItem href="">Inicio</NavItem>
-      <NavItem href="">Servicios</NavItem>
-      <NavItem href="">Acerca</NavItem>
-      <NavItem href="">Contacto</NavItem>
+      <NavItem href="#inicio">Inicio</NavItem>
+      <NavItem href="#servicios">Servicios</NavItem>
+      <NavItem href="#about">Acerca</NavItem>
+      <NavItem href="#contact">Contacto</NavItem>
     </Navbar>
   );
 };

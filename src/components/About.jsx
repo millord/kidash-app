@@ -2,11 +2,16 @@ import React from "react";
 
 export const About = () => {
   return (
-    <section className="section section-about grey lighten-4">
+    <section
+      id="about"
+      className="section section-about grey lighten-4 scrollspy"
+    >
       <div className="container">
         <div className="row">
           <div className="col s12 m6">
-            <h3>Acerca de Nosotros</h3>
+            <h4>
+              Acerca de <span className="blue-text darken-3">Nosotros</span>
+            </h4>
             <p className="flow-text">
               Somos una compañía especializada en instalaciones de
               climatización, industrial, doméstica o comercial, ampliamente
@@ -16,7 +21,7 @@ export const About = () => {
           </div>
           <div className="col s12 m6">
             <img
-              src={require("../components/img/about.jpg")}
+              src={require("../components/img/about.jpeg")}
               className="circle responsive-img"
             />
           </div>
