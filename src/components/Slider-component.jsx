@@ -49,13 +49,11 @@ export const SliderComponent = () => {
 
         <Slide image={<img alt="" src={require("./img/freezer3.jpeg")} />}>
           <Caption placement="right">
-            <h3 className="blue-text text-darken-3">
+            <h3 className="black-text">
               {" "}
               Reparación Equipos de Refrigeración y Calefacción
             </h3>
-            <h5 className="blue-text text-darken-3">
-              calidad y tiempo de repuesta
-            </h5>
+            <h5 className="black-text">calidad y tiempo de repuesta</h5>
             <Button
               node="button"
               style={{
